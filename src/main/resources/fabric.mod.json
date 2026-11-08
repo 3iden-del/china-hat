@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "chinesehat",
+	"version": "${version}",
+	"name": "Chinese Hat",
+	"description": "Wear a conical Chinese hat with 11 styles: bamboo, silk, jade, glass, hitbox-themed wireframes and more. Type /hat to open the configuration menu.",
+	"authors": ["You"],
+	"license": "MIT",
+	"icon": "assets/chinesehat/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"client": ["com.chinesehat.client.ChineseHatClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.18.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
